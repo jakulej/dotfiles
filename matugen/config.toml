@@ -1,5 +1,6 @@
 [config.wallpaper]
-command = "hyprpaper"
+command = "/home/jakulej/.config/hypr/scripts/changeWallpaper.sh"
+set = true
 
 [templates.hyprland]
 input_path = '~/files/dotfiles/matugen/templates/hyprland-colors.conf'
