@@ -16,10 +16,10 @@ vim.opt.rtp:prepend(lazypath)
 -- Example using a list of specs with the default options
 vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappings are correct
 require("lazy").setup({
-    {'williamboman/mason.nvim'},
-    {'williamboman/mason-lspconfig.nvim'},
-    {'VonHeikemen/lsp-zero.nvim', branch = 'v4.x'},
     {'neovim/nvim-lspconfig'},
+    {"mason-org/mason.nvim",opts = {ui = {icons = {package_installed = "✓",package_pending = "➜",package_uninstalled = "✗"}}}},
+    {"mason-org/mason-lspconfig.nvim",opts = {},dependencies = {{ "mason-org/mason.nvim", opts = {} },"neovim/nvim-lspconfig",},},
+    {'VonHeikemen/lsp-zero.nvim', branch = 'v4.x'},
     {'hrsh7th/cmp-nvim-lsp'},
     {'hrsh7th/nvim-cmp'},
     {'L3MON4D3/LuaSnip'},
