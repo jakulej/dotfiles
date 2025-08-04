@@ -23,3 +23,7 @@ output_path = '~/files/dotfiles/rofi/colors.rasi'
 [templates.hyprpaper]
 input_path = './templates/hyprpaper-wallpaper.conf'
 output_path = '~/files/dotfiles/hypr/hyprpaper.conf'
+
+[templates.nvim]
+input_path = './templates/nvim-cattpucin-colors.lua'
+output_path = '~/files/dotfiles/nvim/lua/catpuccin_theme.lua'
