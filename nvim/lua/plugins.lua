@@ -152,8 +152,6 @@ cmp.setup({
         end
       elseif luasnip.locally_jumpable(1) then
         luasnip.jump(1)
-      elseif has_words_before() then
-        cmp.complete()
         if #cmp.get_entries() == 1 then
           cmp.confirm({ select = true })
         end
