@@ -9,9 +9,9 @@ require("catppuccin").setup {
             crust = "#474747",
         },
         frappe = {
-            base = "#c9e6ff",
-            crust = "#b7c9d9",
-            mantle = "#363a3e",       
+            base = "#d7e3ff",
+            crust = "#bec6dc",
+            mantle = "#37393e",       
         },
         macchiato = {},
         mocha = {},
